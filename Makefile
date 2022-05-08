@@ -194,7 +194,7 @@ UPROGS=\
 	$U/_pingpong\
 	$U/_sysinfotest\
 	$U/_sysinfo\
-
+	$U/_gotocamp\
 
 ifeq ($(LAB),$(filter $(LAB), lock))
 UPROGS += \
