@@ -40,7 +40,10 @@ int main(int argc, char *argv[])
 
         close(child_p[0]);
         close(child_p[1]);
+
         exit(0);
+
+        return 0;
     }
     else
     {
