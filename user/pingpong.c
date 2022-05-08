@@ -61,6 +61,11 @@ int main(int argc, char *argv[])
 
         close(perent_p[0]);
         close(perent_p[1]);
+
+        kill(child_pid);
     }
+
     exit(0);
+
+    return 0;
 }

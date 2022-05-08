@@ -192,8 +192,8 @@ UPROGS=\
 	$U/_hello\
 	$U/_sleep\
 	$U/_pingpong\
-	$U/_sysinfotest
-
+	$U/_sysinfotest\
+	$U/_sysinfo\
 
 
 ifeq ($(LAB),$(filter $(LAB), lock))

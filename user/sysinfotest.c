@@ -124,10 +124,13 @@ void testproc() {
 int
 main(int argc, char *argv[])
 {
-  printf("sysinfotest: start\n");
+  printf("Testing is start!\n");
   testcall();
+  printf("test call:    ok\n");
   testmem();
+  printf("test memory:  ok\n");
   testproc();
-  printf("sysinfotest: OK\n");
+  printf("test process: ok\n");
+  printf("All test is passed!\n");
   exit(0);
 }
