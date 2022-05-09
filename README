@@ -1,1 +1,3 @@
-# Project on the goto may 2022
+Project on the goto may 2022
+
+Improvement of os xv6. Added the ability to store large files, added a new sysinfo system call, added useless utilities for testing the system
